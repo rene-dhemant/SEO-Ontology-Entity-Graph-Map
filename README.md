@@ -65,6 +65,12 @@ py -m pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+
+PowerShell:
+```bash
+py -m streamlit run app.py
+```
+
 *(Note: You can input your Gemini API Key directly into the secure sidebar UI within the app, or set it system-wide via the `GEMINI_API_KEY` environment variable).*
 
 ---
